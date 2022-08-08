@@ -111,8 +111,6 @@ R2 <- function(y, pred, family=c("gaussian","binomial")){
   return(1-dev/dev0) # think about R2 = 1- SSE/SST
 }
 
-temp1 = glm(data$inlf[-train]~ predfull, family = "binomial")
-
 
 n <- nrow(data) # the number of observations
 K <- 10 # the number of `folds'
