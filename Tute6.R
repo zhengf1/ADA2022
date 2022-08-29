@@ -172,4 +172,4 @@ summary(fit3)
 
 fit$coefficients[2]
 fit2$coefficients[3]
-(fit2$coefficients[3] + fit2$coefficients[4])/2
+(fit3$coefficients[3] + fit3$coefficients[4])/2
